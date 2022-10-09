@@ -1,7 +1,5 @@
 javascript: (function () {
-    setInterval(function () {
-        Game.bakeryNameSet('test test test');
-    },1000)
+    Game.bakeryNameSet('test test test');
     var message = "Test";
     console.log(message);
 }());
