@@ -1,6 +1,6 @@
 export default () => {
     setInterval(function () {
-        var age = Date.now() - Game.LumpT;
+        var age = Date.now() - Game.lumpT;
         var isLumpRipe = (age > Game.lumpRipeAge);
         if (isLumpRipe) {
             Game.clickLump();
